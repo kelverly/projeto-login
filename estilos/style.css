@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* cores 
+DDD8C4
+A3C9A8
+84B59F
+*/
+
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,  html {
+    background-color: #DDD8C4;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #A3C9A8 ;
+    width: 250px;
+    height: 500px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#imagem{
+    display: block;
+    background: #DDD8C4 url(../img/pexels-catiamatos-1072179.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+}
+#formulario{
+    display: block;
+    padding: 10px;
+
+}
