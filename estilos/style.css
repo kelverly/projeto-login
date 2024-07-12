@@ -4,9 +4,9 @@ DDD8C4
 A3C9A8
 84B59F
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * { 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Noto Sans, Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -42,11 +42,23 @@ section#login{
     background-repeat: no-repeat;
     background-position: center center;
     height: 200px;
-    transition: width .5s, height .5s;
+    transition: width 1s, height 1s;
     transition-timing-function: ease;
 }
 #formulario{
     display: block;
     padding: 10px;
 
+}
+#formulario > h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #4c6b5d;
+}
+#formulario > p{
+    font-size: 0.8em;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+    margin-bottom: 5px;
 }
