@@ -4,6 +4,8 @@ DDD8C4
 A3C9A8
 84B59F
 */
+/* função calc() pode ser usado para formatcão de width e height
+ex: width: calc(100% - 40px) dessa forma vai continua os 100% porem diminui os 40 px*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * { 
     font-family: Noto Sans, Arial, Helvetica, sans-serif;
@@ -61,4 +63,59 @@ section#login{
     color: aliceblue;
     padding: 5px;
     margin-bottom: 5px;
+}
+.campo{
+    margin: 5px 0;
+    text-align: center;
+    padding: 5px;
+    height: 40px;
+}
+.material-symbols-outlined{
+    color: #2e4239;
+    font-size: 1.3em;
+    width: 40px;
+    padding: 5px;
+  font-variation-settings:
+  'FILL' 55,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.campo > input{
+    background-color: #cec9b863;
+    height: 100%;
+    border: 1px solid #2e4239;
+    border-radius: 5px;
+    padding: 5px;
+}
+input::placeholder{
+    color: white;
+}
+form [type=submit]{
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    width: 200px ;
+    height: 30px;
+    background-color: #4c6b5d;
+    color: aliceblue;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+form [type=submit]:hover{
+    background-color: #2e4239;
+    transition: .5s;
+}
+a{
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: #4c6b5d;
+    transition: .5s;
 }
