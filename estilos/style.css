@@ -32,6 +32,8 @@ section#login{
     border-radius: 18px;
     overflow: hidden;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 #imagem{
     display: block;
@@ -40,6 +42,8 @@ section#login{
     background-repeat: no-repeat;
     background-position: center center;
     height: 200px;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 #formulario{
     display: block;
